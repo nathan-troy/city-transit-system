@@ -1,5 +1,5 @@
 # city-transit-system
-# 🚌 Fictional Smart City Transit Platform
+# Fictional Smart City Transit Platform
 
 
 In this project, I wanted to move away from standard API tutorials and challenge myself with **database design, data modeling, and infrastructure automation**. I decided to model the data backbone for a fictional smart city transit network, handling everything from designing the relational schema to automating the pipeline.
@@ -22,7 +22,7 @@ Instead of using a single flat file, I wanted to practice relational database ma
 
 ---
 
-## 🛠️ The Tech Stack I Learned
+## The Tech Stack I Learned
 
 *   **Language:** Python 3.12.4
 *   **Database Engine:** PostgreSQL 15
@@ -31,7 +31,7 @@ Instead of using a single flat file, I wanted to practice relational database ma
 
 ---
 
-## 🧠 Key Problems I Had to Solve
+## Key Problems I Had to Solve
 
 ### 1. Stopping Taxis from Holding 1,200 People (Data Quality)
 When generating mock data, generic tools don't understand real-world business logic. I was running into bugs where taxis randomly held 1,200 people, and trains held 4. To fix this, I learned how to write custom **Inline Conditional Logic** in Mockaroo to tie capacities to specific vehicle types:

@@ -61,24 +61,6 @@ To make my ingestion engine (`build.py`) mimic an enterprise system, I expanded 
 
 ---
 
-## How to Run This Project Locally
-
-If you have Docker Desktop installed, you can start up this entire transit data platform in less than a minute.
-
-### 1. Start the Database
-```bash
-docker compose up -d
-```
-
-### 2. Install Python Requirements
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Pipeline
-```bash
-python build.py
-```
 
 ---
 

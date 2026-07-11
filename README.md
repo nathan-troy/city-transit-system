@@ -26,7 +26,6 @@ Instead of using a single flat file, I wanted to practice relational database ma
 
 *   **Language:** Python 3.12.4
 *   **Database Engine:** PostgreSQL 15
-*   **Infrastructure:** Docker & Docker Compose (Implementation due soon)
 *   **Database Driver:** Psycopg2
 
 ---
@@ -61,7 +60,7 @@ To make my ingestion engine (`build.py`) mimic an enterprise system, I expanded 
 
 ---
 
-
+**Infrastructure:** Docker & Docker Compose (Implementation due soon)
 ---
 
 
